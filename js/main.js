@@ -18,7 +18,7 @@ Import Data
 ===================== */
 // Farmers market data
 // Modified using geojson.io
-var dataset = "https://raw.githubusercontent.com/norayin/CPLN692-Midterm/master/Raw%20Data/Farmers_Markets_Modified.geojson";
+var dataset = "https://raw.githubusercontent.com/norayin/CPLN692-Midterm/master/Farmers_Markets_Modified.geojson";
 var parsedData;
 var featureGroup;
 $.ajax(dataset).done(function(data){
